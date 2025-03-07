@@ -1,19 +1,30 @@
 {
-  "name": "cleanmymac-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "type": "module",
-  "author": "alexyounger",
-  "license": "ISC",
-  "dependencies": {
-    "bytes": "^3.1.2",
-    "chalk": "^5.4.1",
-    "cli-table3": "^0.6.5",
-    "inquirer": "^12.4.2",
-    "ora": "^8.2.0"
-  }
+	"name": "cleanmymac-cli",
+	"version": "1.0.0",
+	"description": "A simple NodeJS CLI implementation of CleanMyMac functions",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"type": "module",
+	"author": "Alex Younger",
+	"license": "MIT",
+	"engines": {
+		"node": ">=18.20.7"
+	},
+	"dependencies": {
+		"bytes": "^3.1.2",
+		"chalk": "^5.4.1",
+		"cli-table3": "^0.6.5",
+		"inquirer": "^12.4.2",
+		"ora": "^8.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AlextheYounga/cleanmymac-cli.git"
+	},
+	"bugs": {
+		"url": "https://github.com/AlextheYounga/cleanmymac-cli.git/issues"
+	},
+	"homepage": "https://github.com/AlextheYounga/cleanmymac-cli.git#readme"
 }
